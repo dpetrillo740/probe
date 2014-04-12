@@ -76,8 +76,7 @@ void loop() {
     //Connect SO to A4
     //Connect SCK to A3
     //CS0-3 to D0-3
-    //https://api.spark.io/v1/devices/50ff6b065067545643400387/result?access_token=21b88a533a33b4d7d750ea2b5b2429bffab54b7f
-    
+
     digitalWrite(D0, HIGH);
     digitalWrite(D1, HIGH);
     digitalWrite(D2, HIGH);
