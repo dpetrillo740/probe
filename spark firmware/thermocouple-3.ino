@@ -1,5 +1,6 @@
 double thermoTemp = 0;
 double internalTemp = 0;
+double debug = 0;
 bool hasError = false;
 bool scvFault = false;
 bool scgFault = false;
@@ -13,6 +14,10 @@ double meatMass;
 String meatType;
 double meatDim;
 double maxtemp = 0;
+double t0;
+double t1;
+double t2;
+double t3;
 
 typedef struct {
     int ThermoTemp : 14;
@@ -43,11 +48,10 @@ void setup() {
   pinMode(D2,OUTPUT);    
   pinMode(D3,OUTPUT);    
 
-  pinMode(D7,OUTPUT);         // Turn on the D7 led so we know it's time
-  digitalWrite(D7,HIGH);      // to open the Serial Terminal.
-  Serial.begin(9600);         // Open serial over USB.
-//  while(!Serial.available()); // Wait here until the user presses ENTER in the Serial Terminal
-  digitalWrite(D7,LOW); // Turn off the D7 led ... your serial is serializing!
+  pinMode(D7,OUTPUT);       
+  
+  Serial.begin(9600);        
+  
   Serial.println("MAX31855 test");
   // wait for MAX chip to stabilize
   delay(1000);
@@ -60,6 +64,8 @@ void setup() {
     Spark.variable("internalTemp", &internalTemp, DOUBLE);
     Spark.variable("raw", &raw, INT);
     Spark.variable("result", &resultstr, STRING); 
+    //add spark vairable to debug remotely 
+    Spark.variable("debug", &debug, DOUBLE);
 
     SPI.setClockDivider(SPI_CLOCK_DIV64);
     SPI.setBitOrder(MSBFIRST);
@@ -68,28 +74,26 @@ void setup() {
     
     Spark.function("cook", cookFunction);
     
-
-}
-
-void loop() {
-    
-    //Connect SO to A4
-    //Connect SCK to A3
-    //CS0-3 to D0-3
-
     digitalWrite(D0, HIGH);
     digitalWrite(D1, HIGH);
     digitalWrite(D2, HIGH);
     digitalWrite(D3, HIGH);
     
-    double t0;
-    double t1;
-    double t2;
-    double t3;
+
+}
+
+void loop() {
     
-    t0 = readChip(0,false);
-    t1 = readChip(1,false);
-    t2 = readChip(2,false);
+    // Wiring instructions for playing with fusion 4ch thermocouple board 
+    //Connect SO to A4
+    //Connect SCK to A3
+    //CS0-3 to D0-3
+    
+
+    
+    t0 = readChip(0,true);
+    t1 = readChip(1,true);
+    t2 = readChip(2,true);
     t3 = readChip(3,true);
     
     
@@ -102,12 +106,14 @@ void loop() {
     Serial.println("");   
     
     sprintf(resultstr, "{\"t2\":%f,\"t3\":%f}", t2, t3); 
-    delay(300);
+    delay(1000);
+    
+    Spark.publish("Temp", String(t3));
     
 
     
     if (setPoint && (t3 > setPoint)) {
-    Serial.print("The Setpoint has been reached");
+    Serial.print("The measured temp exceeds the setpoint");
     Serial.println("");    
     digitalWrite(D7,HIGH);   
     }
@@ -122,7 +128,7 @@ double readChip(int chip, bool print){
     reading.bit32 = 0;
     
     digitalWrite(("D",chip), LOW);
-    delay(1);
+    delay(5);
 
     //read in the 32-bit value
     for(int i =3; i >= 0 ; i--) {
@@ -141,43 +147,38 @@ double readChip(int chip, bool print){
     digitalWrite(("D",chip), HIGH);
     
     double tempF;
-    tempF =  (thermoTemp*9.0/5.0+32.0);
+    tempF =  ((float)thermoTemp*9.0/5.0+32.0);
     
     if (print == true) {
       Serial.print("T");
       Serial.print(chip);
       Serial.print(" = ");
       Serial.print(tempF);
-      Serial.print(" F 13");
+      Serial.print(" F");
       Serial.println(""); 
     }
-    delay(1);
+    delay(10);
     return tempF;
-}
-
-double stringToDouble(String var) {
-    char buf[var.length()];
-    var.toCharArray(buf,var.length());
-    double ans=atof(buf); 
-    return ans;
 }
 
 
 int cookFunction(String command) 
 {
     
-  st = command.substring(0,5).toInt();
+//  st = command.substring(0,5).toInt();
   
   char *charCommand; 
   charCommand = strdup(command.c_str());
   char *saveptr;
   
-  setPoint = stringToDouble(strtok_r(charCommand, ",", &saveptr));
+
+  setPoint = strtod(strtok_r(charCommand, ",", &saveptr), NULL);
+ // debug = strtod(strtok_r(charCommand, ",", &saveptr), NULL);
   cookType = strtok_r(NULL, ",", &saveptr);
-  heatSourceTemp = stringToDouble(strtok_r(NULL, ",", &saveptr));
-  meatMass = stringToDouble(strtok_r(NULL, ",", &saveptr));
+  heatSourceTemp = strtod(strtok_r(NULL, ",", &saveptr), NULL);
+  meatMass = strtod(strtok_r(NULL, ",", &saveptr), NULL);
   meatType = strtok_r(NULL, ",", &saveptr);
-  meatDim = stringToDouble(strtok_r(NULL, ",", &saveptr));
+  meatDim = strtod(strtok_r(NULL, ",", &saveptr), NULL);
   
   Serial.print("The set temp is: ");
   Serial.print(setPoint);
