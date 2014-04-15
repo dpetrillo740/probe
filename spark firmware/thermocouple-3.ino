@@ -161,17 +161,17 @@ double readChip(int chip, bool print){
     return tempF;
 }
 
-
+//This is the 'spark fucntion' that accepts the POST command from our Google App Script
 int cookFunction(String command) 
 {
-    
-//  st = command.substring(0,5).toInt();
-  
+
+  //Change the data recieved to a char    
   char *charCommand; 
   charCommand = strdup(command.c_str());
+  //Initialize a helper variable to be used with strtok_r
   char *saveptr;
   
-
+  //Parse the recieved command into usable local variables
   setPoint = strtod(strtok_r(charCommand, ",", &saveptr), NULL);
  // debug = strtod(strtok_r(charCommand, ",", &saveptr), NULL);
   cookType = strtok_r(NULL, ",", &saveptr);
@@ -200,7 +200,10 @@ int cookFunction(String command)
   Serial.println("");  
   
   
-  //look for the matching argument "coffee" <-- max of 64 characters long
+  //This section could execute a function that contained models when the cook command was recieved
+  //Right now it does not do anything
+  //The return of this function is the reply sent to the POST command and can pass data back to the App Script
+  //look for the matching argument "cooknow" <-- max of 64 characters long
   if(command == "cooknow")
   {
     Serial.print("Cook Command Recieved!");
