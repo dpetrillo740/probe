@@ -1,0 +1,48 @@
+<form role="form" ng-show="viewMode === 'edit'">
+  <div class="form-group">
+    <label for="target-end-temp">Target end temp (in F)</label>
+    <input id="target-end-temp" ng-model="targetEndTemp" type="text" class="form-control" placeholder="Target temp" />
+  </div>
+
+  <div class="form-group">
+    <label>Method of cooking</label>
+    <div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default" ng-model="methodOfCooking" btn-radio="'Grilled'">Grilled</button>
+        <button type="button" class="btn btn-default" ng-model="methodOfCooking" btn-radio="'Roasted'">Roasted</button>
+        <button type="button" class="btn btn-default" ng-model="methodOfCooking" btn-radio="'Flat Grill or &quot;Pan Roasted&quot;'">Flat Grill or "Pan Roasted"</button>
+        <button type="button" class="btn btn-default" ng-model="methodOfCooking" btn-radio="'Contact Grill'">Contact Grill</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="heat-source-temp">Temperature of heat source (in F)</label>
+    <div><small>e.g the oven temp or apx grill surface temp</small></div>
+    <input id="heat-source-temp" ng-model="heatSourceTemp" type="text" class="form-control" placeholder="Heat source temp" />
+  </div>
+
+  <div class="form-group">
+    <label for="meat-mass">Mass of meat (in grams)</label>
+    <input id="meat-mass" ng-model="meatMass" type="text" class="form-control" placeholder="Meat mass" />
+  </div>
+
+  <div class="form-group">
+    <label>Meat shape</label>
+    <div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default" ng-model="meatShape" btn-radio="'Bird-like'">Bird-like</button>
+        <button type="button" class="btn btn-default" ng-model="meatShape" btn-radio="'Slab-like'">Slab-like</button>
+        <button type="button" class="btn btn-default" ng-model="meatShape" btn-radio="'Roast-like'">Roast-like</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="meat-thickness">Thickness of meat</label>
+    <div><small>The thickness of the slab in inches or the diameter of the roast.  N/A for birds.</small></div>
+    <input id="meat-thickness" ng-model="meatThickness" type="text" class="form-control" placeholder="Meat thickness" />
+  </div>
+
+  <button type="submit" ng-click="submitMeatDefinition()" class="btn btn-default">Submit</button>
+</form>

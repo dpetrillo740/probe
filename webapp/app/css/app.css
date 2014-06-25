@@ -1,0 +1,73 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+/*fix for angular-ui so doesn't cause issues with bootstrap*/
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+
+.slide-show-hide {
+  padding:10px;
+  border:1px solid black;
+  background:white;
+  position:absolute;
+}
+
+.jumbotron.slide-show-hide {
+  width: 100%;
+}
+
+.slide-show-hide.ng-hide-add, .slide-show-hide.ng-hide-remove {
+  -webkit-transition:all linear 0.5s;
+  -moz-transition:all linear 0.5s;
+  -o-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+  display:block!important;
+}
+
+.slide-show-hide.ng-hide-add.ng-hide-add-active,
+.slide-show-hide.ng-hide-remove {
+  top: -300px;
+}
+
+.slide-show-hide.ng-hide-add,
+.slide-show-hide.ng-hide-remove.ng-hide-remove-active {
+  top: 0;
+}
+
+#your-meat-container {
+  width: 350px;
+  margin: auto;
+  text-align:center;
+}
+
+.your-meat-def-list dd {
+  text-align: left;
+}

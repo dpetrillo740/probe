@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" ng-app="smartProbe">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Probe</title>
+
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"/>
+
+</head>
+<body>
+
+  <div class="jumbotron text-center" ng-controller="appCtrl as app" >
+    <h1>Smart Probe</h1>
+  </div>
+
+  <section class="container">
+    <div ng-view></div>
+  </section>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  and jquery cdn
+  and bootstrap cdn
+  -->
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../bower_components/angular-route/angular-route.js"></script>
+  <script src="../bower_components/angular-animate/angular-animate.js"></script>
+  <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="../bower_components/angular-poller/angular-poller.js"></script>
+  <script src="../bower_components/underscore/underscore.js"></script>
+  <script src="../bower_components/angular-google-chart/ng-google-chart.js"></script>
+  <script src="../bower_components/momentjs/moment.js"></script>
+  <script src="js/app.js"></script>
+
+  <!--Services-->
+  <!--TEST: replace with real service-->
+  <script src="../test/mocks/jsObjectDataService.js"></script>
+  <script src="../test/mocks/fakeProbeService.js"></script>
+  <script src="../test/mocks/fakeMeatDonenessService.js"></script>
+
+  <script src="js/services/arrayUtilityService.js"></script>
+  <script src="js/services/formattingService.js"></script>
+  <script src="js/services/meatDefinitionService.js"></script>
+  <script src="js/services/currentMeatDefinitionService.js"></script>
+  <script src="js/services/probeService.js"></script>
+
+  <!--Controllers-->
+  <script src="js/controllers/appController.js"></script>
+  <script src="js/controllers/mainController.js"></script>
+  <script src="js/controllers/defineMeatController.js"></script>
+  <script src="js/controllers/yourMeatController.js"></script>
+  <script src="js/controllers/cookingController.js"></script>
+
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+</body>
+</html>

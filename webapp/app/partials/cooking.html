@@ -1,0 +1,39 @@
+<div class="row">
+  <section id="cooking-info" class="col-xs-4 col-xs-offset-2">
+    <h2>Cooking your meat</h2>
+    <dl class="dl-horizontal">
+      <dt>Time Left:</dt>
+      <dd>{{estimatedTimeLeft}}</dd>
+      <dt>Temperature:</dt>
+      <dd>{{temp1}}</dd>
+      <dt>Target Temperature:</dt>
+      <dd>{{currentMeat.targetEndTemp}}</dd>
+    </dl>
+  </section>
+
+  <section id="your-meat-container" class="col-xs-4">
+    <h3>Meat Details</h3>
+    <dl class="dl-horizontal your-meat-def-list">
+      <dt>Target end temp: </dt>
+      <dd>{{currentMeat.targetEndTemp}}</dd>
+
+      <dt>Method of cooking: </dt>
+      <dd>{{currentMeat.methodOfCooking}}</dd>
+
+      <dt>Heat Source Temp: </dt>
+      <dd>{{currentMeat.heatSourceTemp}}</dd>
+
+      <dt>Meat Mass: </dt>
+      <dd>{{currentMeat.meatMass}}</dd>
+
+      <dt>Meat Shape: </dt>
+      <dd>{{currentMeat.meatShape}}</dd>
+
+      <dt>Meat Thickness: </dt>
+      <dd>{{currentMeat.meatThickness}}</dd>
+
+    </dl>
+  </section>
+</div>
+
+<div google-chart chart="temperatureGraph"></div>
