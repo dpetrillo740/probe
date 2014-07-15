@@ -29,7 +29,7 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
-OutputPath=Project Outputs for SparkIO Thermal Shield
+OutputPath=
 
 [Document1]
 DocumentPath=SparkIO Thermal Shield - No Aux ADC.SchDoc
@@ -79,6 +79,29 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document4]
+DocumentPath=SparkIO THermal Shield BOM.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[ProjectVariant1]
+Description=Prototype
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -90,7 +113,7 @@ GenerateBOM=1
 OutputJobsCount=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for SparkIO Thermal Shield
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
