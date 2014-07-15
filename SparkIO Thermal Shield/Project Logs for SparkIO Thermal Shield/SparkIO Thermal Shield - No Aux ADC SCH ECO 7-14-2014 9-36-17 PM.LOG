@@ -1,0 +1,9 @@
+Change Value of Parameter Datasheet Link in Part J3 Old=http://ww1.microchip.com/downloads/en/DeviceDoc/21496C.pdf New=http://www.cui.com/product/resource/mj-2509n.pdf
+Change Value of Parameter Manufacturer in Part J3 Old=Microchip New=CUI Inc
+Change Value of Parameter Manufacturer Part Number in Part J3 Old=TC1046VNBTR New=MJ-2509N
+Change Value of Parameter Name in Part J3 Old=Precision Temperature Sensing IC New=3/32" Mono Audio Jack Right Angle TH
+Change Value of Parameter Package in Part J3 Old=SOT23-3 New=TH
+Change Value of Parameter Power in Part J3 Old=2.7V to 4.4V New=
+Change Value of Parameter Supplier Part Number 1 in Part J3 Old=TC1046VNBTRCT-ND New=CP-M2509N-ND
+Change Value of Parameter Tolerance in Part J3 Old=+/-0.5C New=
+Change Value of Parameter Value in Part J3 Old=TC1046 New=MJ-2509N
