@@ -1,0 +1,12 @@
+Change Value of Parameter Datasheet Link in Part TB1 Old=http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-G.pdf New=http://www.on-shore.com/sites/default/files/manuals/OSTTEXX0164.pdf
+Change Value of Parameter Manufacturer in Part TB1 Old=Sullins Interconnect New=On Shore Technology
+Change Value of Parameter Manufacturer Part Number in Part TB1 Old=PPTC121LFBN-RC New=OSTTE120104
+Change Value of Parameter Name in Part TB1 Old=CONN HEADER FEM 12POS .1" SGL TIN New=TERMINAL BLOCK 3.5MM 12POS PCB
+Change Value of Parameter Supplier Part Number in Part TB1 Old=S6100-ND New=ED2737-ND
+Change Value of Parameter Value in Part TB1 Old=PPTC121LFBN-RC New=OSTTE120104
+Change Value of Parameter Datasheet Link in Part TB2 Old=http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-G.pdf New=http://www.on-shore.com/sites/default/files/manuals/OSTTEXX0164.pdf
+Change Value of Parameter Manufacturer in Part TB2 Old=Sullins Interconnect New=On Shore Technology
+Change Value of Parameter Manufacturer Part Number in Part TB2 Old=PPTC121LFBN-RC New=OSTTE120104
+Change Value of Parameter Name in Part TB2 Old=CONN HEADER FEM 12POS .1" SGL TIN New=TERMINAL BLOCK 3.5MM 12POS PCB
+Change Value of Parameter Supplier Part Number in Part TB2 Old=S6100-ND New=ED2737-ND
+Change Value of Parameter Value in Part TB2 Old=PPTC121LFBN-RC New=OSTTE120104

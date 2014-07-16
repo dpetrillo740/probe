@@ -15,9 +15,9 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Job1.OutJob
+Name=Outputs.OutJob
 Description=
-TargetOutputMedium=Schematic
+TargetOutputMedium=Project Output
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -33,7 +33,7 @@ OutputMedium3=Folder Structure
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Video
 OutputMedium4_Type=Multimedia
-OutputMedium5=Schematic
+OutputMedium5=Project Output
 OutputMedium5_Type=Publish
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
@@ -50,6 +50,29 @@ OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType2=BOM_PartType
+OutputName2=Bill of Materials
+OutputCategory2=Report
+OutputDocumentPath2=SparkIO Thermal Shield - No Aux ADC.SchDoc
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+Configuration2_Name1=Filter
+Configuration2_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration2_Name2=General
+Configuration2_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=BOM Default Template 95.xlt|BatchMode=5|FormWidth=950|FormHeight=652|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration2_Name3=GroupOrder
+Configuration2_Item3=Manufacturer Part Number=True
+Configuration2_Name4=SortOrder
+Configuration2_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration2_Name5=VisibleOrder
+Configuration2_Item5=Designator=187|Manufacturer=137|Manufacturer Part Number=164|Name=87|Supplier=87|Supplier Part Number=88
 
 [PublishSettings]
 OutputFilePath2=
@@ -60,7 +83,7 @@ OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=
+OutputFileName2=Outputs.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
@@ -126,15 +149,15 @@ FFmpegPixelFormat4=0
 FFmpegQuality4=80
 WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
-OutputFilePath5=C:\Users\Jim\Documents\GitHub\probe\SparkIO Thermal Shield\Job1.PDF
-ReleaseManaged5=1
-OutputBasePath5=
+OutputFilePath5=C:\Users\Jim\Documents\GitHub\probe\SparkIO Thermal Shield\.\SparkIO Thermal Shield Project Output.PDF
+ReleaseManaged5=0
+OutputBasePath5=.\
 OutputPathMedia5=
 OutputPathMediaValue5=
 OutputPathOutputer5=[Output Type]
 OutputPathOutputerPrefix5=
 OutputPathOutputerValue5=
-OutputFileName5=SparkIO Thermal Shield Schematic.PDF
+OutputFileName5=SparkIO Thermal Shield Project Output.PDF
 OutputFileNameMulti5=
 UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
@@ -165,6 +188,6 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
-RelativeOutputPath5=C:\Users\Jim\Documents\GitHub\probe\SparkIO Thermal Shield\Job1.PDF
+RelativeOutputPath5=C:\Users\Jim\Documents\GitHub\probe\SparkIO Thermal Shield\.\SparkIO Thermal Shield Project Output.PDF
 OpenOutputs5=1
 
