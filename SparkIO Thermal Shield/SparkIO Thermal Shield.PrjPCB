@@ -29,7 +29,7 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
-OutputPath=
+OutputPath=Project Outputs for SparkIO Thermal Shield
 
 [Document1]
 DocumentPath=SparkIO Thermal Shield - No Aux ADC.SchDoc
@@ -80,7 +80,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document4]
-DocumentPath=SparkIO THermal Shield BOM.BomDoc
+DocumentPath=SparkIO Thermal Shield BOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -113,7 +113,7 @@ GenerateBOM=1
 OutputJobsCount=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for SparkIO Thermal Shield
 
 [OutputGroup1]
 Name=Netlist Outputs
