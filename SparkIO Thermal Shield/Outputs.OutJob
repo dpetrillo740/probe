@@ -66,13 +66,13 @@ PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration2_Name1=Filter
 Configuration2_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration2_Name2=General
-Configuration2_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=BOM Default Template 95.xlt|BatchMode=5|FormWidth=950|FormHeight=652|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration2_Item2=OpenExported=True|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=BOM Simple - JG TEMPLATE.xlt|BatchMode=6|FormWidth=950|FormHeight=652|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration2_Name3=GroupOrder
 Configuration2_Item3=Manufacturer Part Number=True
 Configuration2_Name4=SortOrder
 Configuration2_Item4=Designator=Up|Comment=Up|Footprint=Up
 Configuration2_Name5=VisibleOrder
-Configuration2_Item5=Designator=187|Manufacturer=137|Manufacturer Part Number=164|Name=87|Supplier=87|Supplier Part Number=88
+Configuration2_Item5=Designator=187|Manufacturer=137|Manufacturer Part Number=164|Name=87|Supplier=87|Supplier Part Number=88|Quantity=100
 
 [PublishSettings]
 OutputFilePath2=
