@@ -134,6 +134,14 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for SparkIO Thermal Shield\Design Rule Check - SparkIO Thermal Shield.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=SparkIO Thermal Shield.PcbDoc.htm
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
