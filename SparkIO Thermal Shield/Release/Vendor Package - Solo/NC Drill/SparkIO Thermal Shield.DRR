@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: SparkIO Thermal Shield.PcbDoc   7/28/2014  6:13:31 PM
+---------------------------------------------------------------------------
+
+Layer Pair : [1] Top Layer to [2] Bottom Layer
+ASCII RoundHoles File : SparkIO Thermal Shield.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        10mil (0.254mm)          Round          15               6.52 Inch (165.55 mm)
+T2        35.43mil (0.89992mm)     Round          24               3.90 Inch (99.06 mm)
+T3        47.24mil (1.1999mm)      Round          30               11.37 Inch (288.91 mm)
+T4        69.68mil (1.76987mm)     Round          12               4.94 Inch (125.39 mm)
+T5        196.85mil (4.99999mm)    Round          3                3.95 Inch (100.33 mm)
+---------------------------------------------------------------------------
+Totals                                            84               30.68 Inch (779.24 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

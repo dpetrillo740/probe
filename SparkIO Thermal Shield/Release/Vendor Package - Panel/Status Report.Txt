@@ -1,0 +1,10 @@
+Output: Bill of Materials - Solo
+Type  : BOM
+From  : Variant [Prototype] of Schematic Document [SparkIO Thermal Shield - No Aux ADC.SchDoc]
+   Generated File[Bill of Materials - Solo-SparkIO Thermal Shield - No Aux ADC(Prototype).xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 6:14:25 PM On 7/28/2014

@@ -1,0 +1,43 @@
+H optimize n staggered n
+$0 $NONE$
+$1 GND
+$2 NetDS1_1
+$3 SC_1_RAW
+$4 SC_3_TX
+$5 SC_4_RX
+$6 SC_5_A7
+$7 SC_6_A6
+$8 SC_7_A5
+$9 SC_8_A4
+$10 SC_9_A3
+$11 SC_10_A2
+$12 SC_11_A1
+$13 SC_12_A0
+$14 SC_13_D0/SDA1
+$15 SC_14_D1/SCL1
+$16 SC_15_D2
+$17 SC_16_D3
+$18 SC_17_D4
+$19 SC_18_D5
+$20 SC_19_D6
+$21 SC_20_D7
+$22 SC_22_VDDA
+$23 SC_23_RST
+$24 SC_24_VCC
+$25 TC_A_IN_+
+$26 TC_A_IN_-
+$27 TC_B_IN_+
+$28 TC_B_IN_-
+$29 U1A+
+$30 U1A-
+$31 U1AO
+$32 U1B+
+$33 U1B-
+$34 U2A+
+$35 U2A-
+$36 U2AO
+$37 U2B+
+$38 U2B-
+#
+#Netlist points
+#

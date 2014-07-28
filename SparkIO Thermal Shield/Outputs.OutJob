@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Outputs.OutJob
 Description=
-TargetOutputMedium=Review PDF
+TargetOutputMedium=Vendor Files - Panel
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Microsoft XPS Document Writer
+TargetPrinter=Building One 7830
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -40,14 +40,14 @@ OutputName1=Schematic Prints
 OutputCategory1=Documentation
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=9
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
 OutputEnabled1_OutputMedium5=0
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 OutputType2=BOM_PartType
@@ -57,35 +57,35 @@ OutputDocumentPath2=SparkIO Thermal Shield - No Aux ADC.SchDoc
 OutputVariantName2=Prototype
 OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
-OutputEnabled2_OutputMedium2=13
+OutputEnabled2_OutputMedium2=14
 OutputEnabled2_OutputMedium3=9
 OutputEnabled2_OutputMedium4=1
 OutputEnabled2_OutputMedium5=5
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration2_Name1=Filter
 Configuration2_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration2_Name2=General
-Configuration2_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=BOM Default Template 95.xlt|BatchMode=5|FormWidth=950|FormHeight=652|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration2_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=BOM Simple - JG TEMPLATE.xlt|BatchMode=5|FormWidth=950|FormHeight=652|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration2_Name3=GroupOrder
 Configuration2_Item3=Manufacturer Part Number=True
 Configuration2_Name4=SortOrder
 Configuration2_Item4=Designator=Up|Comment=Up|Footprint=Up
 Configuration2_Name5=VisibleOrder
-Configuration2_Item5=Designator=187|Manufacturer=137|Manufacturer Part Number=164|Name=87|Supplier=87|Supplier Part Number=88|Fitted/Not Fitted=100
+Configuration2_Item5=Designator=187|Manufacturer=137|Manufacturer Part Number=164|Name=87|Supplier=87|Supplier Part Number=88|Fitted/Not Fitted=100|Quantity=100
 OutputType3=PCB 3D Print
 OutputName3=Top Solo 3D View
 OutputCategory3=Documentation
 OutputDocumentPath3=SparkIO Thermal Shield.PcbDoc
 OutputVariantName3=Prototype
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=1
 OutputEnabled3_OutputMedium3=1
 OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=0
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.50|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.41|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=22994488|ViewY=33997717|LookAtX=32597244|LookAtY=26268858|LookAtZ=-1000|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.64716942611176E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
 OutputType4=PCB 3D Print
@@ -93,14 +93,14 @@ OutputName4=Bottom Solo 3D View
 OutputCategory4=Documentation
 OutputDocumentPath4=SparkIO Thermal Shield.PcbDoc
 OutputVariantName4=Prototype
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=3
 OutputEnabled4_OutputMedium3=2
 OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.50|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.41|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=22994488|ViewY=33997717|LookAtX=32597244|LookAtY=26268858|LookAtZ=-1000|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.64716942611176E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=
 OutputType5=PCB 3D Print
@@ -108,14 +108,14 @@ OutputName5=Top Panel 3D View
 OutputCategory5=Documentation
 OutputDocumentPath5=SparkIO Thermal Shield - Panelized.PcbDoc
 OutputVariantName5=Prototype
-OutputEnabled5=1
+OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=5
 OutputEnabled5_OutputMedium3=3
 OutputEnabled5_OutputMedium4=0
 OutputEnabled5_OutputMedium5=0
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.46|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.44|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=240000000|ViewY=180000000|LookAtX=141100000|LookAtY=99270000|LookAtZ=-1000|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=3.11111111111111E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
 OutputType6=PCB 3D Print
@@ -123,14 +123,14 @@ OutputName6=Bottom Panel 3D View
 OutputCategory6=Documentation
 OutputDocumentPath6=SparkIO Thermal Shield - Panelized.PcbDoc
 OutputVariantName6=Prototype
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=7
 OutputEnabled6_OutputMedium3=4
 OutputEnabled6_OutputMedium4=0
 OutputEnabled6_OutputMedium5=0
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.46|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.44|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration6_Name1=OutputConfigurationParameter1
 Configuration6_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=240000000|ViewY=180000000|LookAtX=141100000|LookAtY=99270000|LookAtZ=-1000|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=3.11111111111111E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=
 OutputType7=ExportSTEP
@@ -152,14 +152,14 @@ OutputName8=Assembly Drawings - Solo
 OutputCategory8=Assembly
 OutputDocumentPath8=SparkIO Thermal Shield.PcbDoc
 OutputVariantName8=Prototype
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=10
 OutputEnabled8_OutputMedium3=5
 OutputEnabled8_OutputMedium4=0
 OutputEnabled8_OutputMedium5=0
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration8_Name2=OutputConfigurationParameter2
@@ -193,7 +193,7 @@ OutputName10=Pick and Place - Panel
 OutputCategory10=Assembly
 OutputDocumentPath10=SparkIO Thermal Shield - Panelized.PcbDoc
 OutputVariantName10=Prototype
-OutputEnabled10=0
+OutputEnabled10=1
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
@@ -235,7 +235,7 @@ OutputName13=ODB++ Files - Panel
 OutputCategory13=Fabrication
 OutputDocumentPath13=SparkIO Thermal Shield - Panelized.PcbDoc
 OutputVariantName13=Prototype
-OutputEnabled13=0
+OutputEnabled13=1
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
@@ -249,14 +249,14 @@ OutputName14=Top Solo 3D View
 OutputCategory14=Documentation
 OutputDocumentPath14=SparkIO Thermal Shield.PcbDoc
 OutputVariantName14=Bare Board
-OutputEnabled14=1
+OutputEnabled14=0
 OutputEnabled14_OutputMedium1=0
 OutputEnabled14_OutputMedium2=2
 OutputEnabled14_OutputMedium3=0
 OutputEnabled14_OutputMedium4=0
 OutputEnabled14_OutputMedium5=0
 OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.50|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.41|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration14_Name1=OutputConfigurationParameter1
 Configuration14_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=22994488|ViewY=33997717|LookAtX=32597244|LookAtY=26268858|LookAtZ=-1000|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.64716942611176E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
 OutputType15=PCB 3D Print
@@ -264,14 +264,14 @@ OutputName15=Bottom Solo 3D View
 OutputCategory15=Documentation
 OutputDocumentPath15=SparkIO Thermal Shield.PcbDoc
 OutputVariantName15=Bare Board
-OutputEnabled15=1
+OutputEnabled15=0
 OutputEnabled15_OutputMedium1=0
 OutputEnabled15_OutputMedium2=4
 OutputEnabled15_OutputMedium3=0
 OutputEnabled15_OutputMedium4=0
 OutputEnabled15_OutputMedium5=0
 OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.50|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.41|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration15_Name1=OutputConfigurationParameter1
 Configuration15_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=22994488|ViewY=33997717|LookAtX=32597244|LookAtY=26268858|LookAtZ=-1000|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.64716942611176E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=
 OutputType16=PCB 3D Print
@@ -279,14 +279,14 @@ OutputName16=Top Panel 3D View
 OutputCategory16=Documentation
 OutputDocumentPath16=SparkIO Thermal Shield - Panelized.PcbDoc
 OutputVariantName16=Bare Board
-OutputEnabled16=1
+OutputEnabled16=0
 OutputEnabled16_OutputMedium1=0
 OutputEnabled16_OutputMedium2=6
 OutputEnabled16_OutputMedium3=0
 OutputEnabled16_OutputMedium4=0
 OutputEnabled16_OutputMedium5=0
 OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.46|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.44|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration16_Name1=OutputConfigurationParameter1
 Configuration16_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=240000000|ViewY=180000000|LookAtX=141100000|LookAtY=99270000|LookAtZ=-1000|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=3.11111111111111E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
 OutputType17=PCB 3D Print
@@ -294,14 +294,14 @@ OutputName17=Bottom Panel 3D View
 OutputCategory17=Documentation
 OutputDocumentPath17=SparkIO Thermal Shield - Panelized.PcbDoc
 OutputVariantName17=Bare Board
-OutputEnabled17=1
+OutputEnabled17=0
 OutputEnabled17_OutputMedium1=0
 OutputEnabled17_OutputMedium2=8
 OutputEnabled17_OutputMedium3=0
 OutputEnabled17_OutputMedium4=0
 OutputEnabled17_OutputMedium5=0
 OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.46|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.44|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration17_Name1=OutputConfigurationParameter1
 Configuration17_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=240000000|ViewY=180000000|LookAtX=141100000|LookAtY=99270000|LookAtZ=-1000|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=3.11111111111111E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=
 OutputType18=Gerber
@@ -309,7 +309,7 @@ OutputName18=Gerber Files - Panel
 OutputCategory18=Fabrication
 OutputDocumentPath18=SparkIO Thermal Shield - Panelized.PcbDoc
 OutputVariantName18=Prototype
-OutputEnabled18=0
+OutputEnabled18=1
 OutputEnabled18_OutputMedium1=0
 OutputEnabled18_OutputMedium2=0
 OutputEnabled18_OutputMedium3=0
@@ -337,7 +337,7 @@ OutputName20=NC Drill Files - Panel
 OutputCategory20=Fabrication
 OutputDocumentPath20=SparkIO Thermal Shield - Panelized.PcbDoc
 OutputVariantName20=
-OutputEnabled20=0
+OutputEnabled20=1
 OutputEnabled20_OutputMedium1=0
 OutputEnabled20_OutputMedium2=0
 OutputEnabled20_OutputMedium3=0
@@ -351,14 +351,14 @@ OutputName21=Final Artwork Prints - Solo
 OutputCategory21=Fabrication
 OutputDocumentPath21=SparkIO Thermal Shield.PcbDoc
 OutputVariantName21=Prototype
-OutputEnabled21=1
+OutputEnabled21=0
 OutputEnabled21_OutputMedium1=0
-OutputEnabled21_OutputMedium2=11
+OutputEnabled21_OutputMedium2=12
 OutputEnabled21_OutputMedium3=7
 OutputEnabled21_OutputMedium4=0
 OutputEnabled21_OutputMedium5=0
 OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration21_Name1=OutputConfigurationParameter1
 Configuration21_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration21_Name2=OutputConfigurationParameter2
@@ -412,34 +412,24 @@ Configuration21_Item25=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Fu
 Configuration21_Name26=OutputConfigurationParameter26
 Configuration21_Item26=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer
 Configuration21_Name27=OutputConfigurationParameter27
-Configuration21_Item27=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=8|Mirror=False|Name=Top Pad Master|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration21_Item27=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=8|Mirror=False|Name=Drill Drawing For ([2] Bottom Layer,[1] Top Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration21_Name28=OutputConfigurationParameter28
-Configuration21_Item28=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=MultiLayer|Polygon=Hidden|PrintOutIndex=8|Record=PcbPrintLayer
+Configuration21_Item28=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer
 Configuration21_Name29=OutputConfigurationParameter29
-Configuration21_Item29=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=TopLayer|Polygon=Hidden|PrintOutIndex=8|Record=PcbPrintLayer
-Configuration21_Name30=OutputConfigurationParameter30
-Configuration21_Item30=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer
-Configuration21_Name31=OutputConfigurationParameter31
-Configuration21_Item31=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer
-Configuration21_Name32=OutputConfigurationParameter32
-Configuration21_Item32=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=9|Mirror=False|Name=Drill Drawing For ([2] Bottom Layer,[1] Top Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration21_Name33=OutputConfigurationParameter33
-Configuration21_Item33=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer
-Configuration21_Name34=OutputConfigurationParameter34
-Configuration21_Item34=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer
+Configuration21_Item29=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer
 OutputType22=Final
 OutputName22=Final Artwork Prints - Panel
 OutputCategory22=Fabrication
 OutputDocumentPath22=SparkIO Thermal Shield - Panelized.PcbDoc
 OutputVariantName22=Prototype
-OutputEnabled22=1
+OutputEnabled22=0
 OutputEnabled22_OutputMedium1=0
-OutputEnabled22_OutputMedium2=12
+OutputEnabled22_OutputMedium2=13
 OutputEnabled22_OutputMedium3=8
 OutputEnabled22_OutputMedium4=0
 OutputEnabled22_OutputMedium5=0
 OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration22_Name1=OutputConfigurationParameter1
 Configuration22_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration22_Name2=OutputConfigurationParameter2
@@ -493,34 +483,24 @@ Configuration22_Item25=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Fu
 Configuration22_Name26=OutputConfigurationParameter26
 Configuration22_Item26=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer
 Configuration22_Name27=OutputConfigurationParameter27
-Configuration22_Item27=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=8|Mirror=False|Name=Top Pad Master|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration22_Item27=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=8|Mirror=False|Name=Drill Drawing For ([2] Bottom Layer,[1] Top Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration22_Name28=OutputConfigurationParameter28
-Configuration22_Item28=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=MultiLayer|Polygon=Hidden|PrintOutIndex=8|Record=PcbPrintLayer
+Configuration22_Item28=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer
 Configuration22_Name29=OutputConfigurationParameter29
-Configuration22_Item29=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=TopLayer|Polygon=Hidden|PrintOutIndex=8|Record=PcbPrintLayer
-Configuration22_Name30=OutputConfigurationParameter30
-Configuration22_Item30=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer
-Configuration22_Name31=OutputConfigurationParameter31
-Configuration22_Item31=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer
-Configuration22_Name32=OutputConfigurationParameter32
-Configuration22_Item32=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=9|Mirror=False|Name=Drill Drawing For ([2] Bottom Layer,[1] Top Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration22_Name33=OutputConfigurationParameter33
-Configuration22_Item33=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer
-Configuration22_Name34=OutputConfigurationParameter34
-Configuration22_Item34=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer
+Configuration22_Item29=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer
 OutputType23=Assembly
 OutputName23=Assembly Drawings - Panel
 OutputCategory23=Assembly
-OutputDocumentPath23=SparkIO Thermal Shield.PcbDoc
+OutputDocumentPath23=SparkIO Thermal Shield - Panelized.PcbDoc
 OutputVariantName23=Prototype
-OutputEnabled23=1
+OutputEnabled23=0
 OutputEnabled23_OutputMedium1=0
-OutputEnabled23_OutputMedium2=14
+OutputEnabled23_OutputMedium2=11
 OutputEnabled23_OutputMedium3=6
 OutputEnabled23_OutputMedium4=0
 OutputEnabled23_OutputMedium5=0
 OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration23_Name1=OutputConfigurationParameter1
 Configuration23_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration23_Name2=OutputConfigurationParameter2
@@ -561,6 +541,7 @@ MarkNetLabels2=1
 MarkPortsId2=1
 GenerateTOC=1
 ShowComponentParameters2=1
+GlobalBookmarks2=0
 OutputFilePath3=C:\Users\Jim\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Outputs.PDF
 ReleaseManaged3=0
 OutputBasePath3=Release\
@@ -584,7 +565,8 @@ MarkPins3=1
 MarkNetLabels3=1
 MarkPortsId3=1
 ShowComponentParameters3=1
-OutputFilePath4=C:\Users\Jim\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Solo\
+GlobalBookmarks3=0
+OutputFilePath4=C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Solo\
 ReleaseManaged4=0
 OutputBasePath4=Release\Vendor Package - Solo\
 OutputPathMedia4=
@@ -596,8 +578,8 @@ OutputFileName4=
 OutputFileNameMulti4=
 UseOutputNameForMulti4=1
 OutputFileNameSpecial4=
-OpenOutput4=1
-OutputFilePath5=C:\Users\Jim\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\
+OpenOutput4=0
+OutputFilePath5=C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\
 ReleaseManaged5=0
 OutputBasePath5=Release\Vendor Package - Panel\
 OutputPathMedia5=
@@ -609,15 +591,15 @@ OutputFileName5=
 OutputFileNameMulti5=
 UseOutputNameForMulti5=1
 OutputFileNameSpecial5=
-OpenOutput5=1
+OpenOutput5=0
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Jim\Documents\GitHub\probe\SparkIO Thermal Shield\Review\SparkIO Thermal Shield Project Output.PDF
 OpenOutputs2=1
 RelativeOutputPath3=C:\Users\Jim\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Outputs.PDF
 OpenOutputs3=1
-RelativeOutputPath4=C:\Users\Jim\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Solo\
-OpenOutputs4=1
+RelativeOutputPath4=C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Solo\
+OpenOutputs4=0
 AddToProject4=1
 TimestampFolder4=0
 UseOutputName4=0
@@ -626,8 +608,8 @@ OpenGerberOutput4=0
 OpenNCDrillOutput4=0
 OpenIPCOutput4=0
 EnableReload4=0
-RelativeOutputPath5=C:\Users\Jim\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\
-OpenOutputs5=1
+RelativeOutputPath5=C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\
+OpenOutputs5=0
 AddToProject5=1
 TimestampFolder5=0
 UseOutputName5=0

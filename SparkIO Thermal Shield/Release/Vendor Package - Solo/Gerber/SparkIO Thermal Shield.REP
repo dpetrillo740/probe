@@ -1,0 +1,228 @@
+*************************************************************
+FileName = SparkIO Thermal Shield.GBR
+AutoAperture = True
+*************************************************************
+Generating : [1] Top Layer
+      File : SparkIO Thermal Shield.GTL
+
+    Adding Layer      : [1] Top Layer
+
+    Adding Layer      : [M1] Board Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : [2] Bottom Layer
+      File : SparkIO Thermal Shield.GBL
+
+    Adding Layer      : [2] Bottom Layer
+
+    Adding Layer      : [M1] Board Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : SparkIO Thermal Shield.GPT
+
+    Adding Layer      : [1] Top Layer
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : [M1] Board Outline
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : SparkIO Thermal Shield.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : [M1] Board Outline
+
+
+Used DCodes :
+    D16
+    D19
+    D20
+    D29
+    D30
+    D31
+    D32
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : SparkIO Thermal Shield.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : [M1] Board Outline
+
+    Adding Layer      : [1] Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : SparkIO Thermal Shield.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : [M1] Board Outline
+
+    Adding Layer      : [1] Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D19
+    D20
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : SparkIO Thermal Shield.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : [M1] Board Outline
+
+    Adding Layer      : [2] Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D19
+    D20
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : [M1] Board Outline
+      File : SparkIO Thermal Shield.GM1
+
+    Adding Layer      : [M1] Board Outline
+
+    Adding Layer      : [M1] Board Outline
+
+
+Used DCodes :
+    D16
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : [M15] Top Component Keepout
+      File : SparkIO Thermal Shield.GM15
+
+    Adding Layer      : [M15] Top Component Keepout
+
+    Adding Layer      : [M1] Board Outline
+
+
+Used DCodes :
+    D16
+    D19
+    D20
+    D48
+*************************************************************
+

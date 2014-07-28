@@ -1,0 +1,12 @@
+Output: NC Drill Files - Solo
+Type  : NC Drill
+From  : PCB Document [SparkIO Thermal Shield.PcbDoc]
+   Generated File[SparkIO Thermal Shield.TXT]
+   Generated File[SparkIO Thermal Shield.LDP]
+   Generated File[SparkIO Thermal Shield.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 6:13:31 PM On 7/28/2014
