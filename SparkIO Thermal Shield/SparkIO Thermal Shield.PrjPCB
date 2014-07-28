@@ -29,7 +29,7 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
-OutputPath=
+OutputPath=Project Outputs for SparkIO Thermal Shield
 
 [Document1]
 DocumentPath=SparkIO Thermal Shield - No Aux ADC.SchDoc
@@ -166,12 +166,370 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
+[ProjectVariant2]
+Description=Bare Board
+AllowFabrication=0
+ParameterCount=0
+VariationCount=47
+Variation1=Designator=C1|UniqueId=\HICNBSLL|Kind=1|AlternatePart= 
+Variation2=Designator=C4|UniqueId=\WDPGXQLS|Kind=1|AlternatePart= 
+Variation3=Designator=C3|UniqueId=\CXFYQGPA|Kind=1|AlternatePart= 
+Variation4=Designator=C2|UniqueId=\GBBUGSNG|Kind=1|AlternatePart= 
+Variation5=Designator=C5|UniqueId=\TPPBDTSB|Kind=1|AlternatePart= 
+Variation6=Designator=C6|UniqueId=\MKDQJSOV|Kind=1|AlternatePart= 
+Variation7=Designator=C7|UniqueId=\XKONLSYO|Kind=1|AlternatePart= 
+Variation8=Designator=C8|UniqueId=\UEUWEUFB|Kind=1|AlternatePart= 
+Variation9=Designator=C9|UniqueId=\XCMULKNL|Kind=1|AlternatePart= 
+Variation10=Designator=C10|UniqueId=\VBGUYXEB|Kind=1|AlternatePart= 
+Variation11=Designator=C11|UniqueId=\FKHBMDPT|Kind=1|AlternatePart= 
+Variation12=Designator=C12|UniqueId=\PBDAYGEJ|Kind=1|AlternatePart= 
+Variation13=Designator=C13|UniqueId=\FUPIYWRY|Kind=1|AlternatePart= 
+Variation14=Designator=DS1|UniqueId=\WGKHCRBC|Kind=1|AlternatePart= 
+Variation15=Designator=FID1|UniqueId=\UTEIKIPO|Kind=1|AlternatePart= 
+Variation16=Designator=FID2|UniqueId=\UNWXQHPF|Kind=1|AlternatePart= 
+Variation17=Designator=FID3|UniqueId=\LDPLYDWJ|Kind=1|AlternatePart= 
+Variation18=Designator=H1|UniqueId=\PKMVRXNW|Kind=1|AlternatePart= 
+Variation19=Designator=H2|UniqueId=\DCYQXNMF|Kind=1|AlternatePart= 
+Variation20=Designator=J1|UniqueId=\RXWYSXHH|Kind=1|AlternatePart= 
+Variation21=Designator=J2|UniqueId=\XTLLCKGU|Kind=1|AlternatePart= 
+Variation22=Designator=J3|UniqueId=\XLDSGAPH|Kind=1|AlternatePart= 
+Variation23=Designator=J4|UniqueId=\UKMJYCDF|Kind=1|AlternatePart= 
+Variation24=Designator=R1|UniqueId=\IJCRMIEO|Kind=1|AlternatePart= 
+Variation25=Designator=R2|UniqueId=\SYMYNCKV|Kind=1|AlternatePart= 
+Variation26=Designator=R3|UniqueId=\DBMWXXVK|Kind=1|AlternatePart= 
+Variation27=Designator=R4|UniqueId=\LMDHUEOO|Kind=1|AlternatePart= 
+Variation28=Designator=R5|UniqueId=\FCKUDTLB|Kind=1|AlternatePart= 
+Variation29=Designator=R6|UniqueId=\JWCKHVTS|Kind=1|AlternatePart= 
+Variation30=Designator=R7|UniqueId=\WBTVEFJV|Kind=1|AlternatePart= 
+Variation31=Designator=R8|UniqueId=\AHMWCOSN|Kind=1|AlternatePart= 
+Variation32=Designator=R9|UniqueId=\BHNALDWP|Kind=1|AlternatePart= 
+Variation33=Designator=R10|UniqueId=\QATLSEQP|Kind=1|AlternatePart= 
+Variation34=Designator=R11|UniqueId=\NFUEQHEA|Kind=1|AlternatePart= 
+Variation35=Designator=R12|UniqueId=\YFYUYMGD|Kind=1|AlternatePart= 
+Variation36=Designator=R13|UniqueId=\SIGLKFLM|Kind=1|AlternatePart= 
+Variation37=Designator=R14|UniqueId=\VVLVIRUQ|Kind=1|AlternatePart= 
+Variation38=Designator=R15|UniqueId=\YFUOSDNB|Kind=1|AlternatePart= 
+Variation39=Designator=R16|UniqueId=\XNJCFGOJ|Kind=1|AlternatePart= 
+Variation40=Designator=R17|UniqueId=\OITJKEYO|Kind=1|AlternatePart= 
+Variation41=Designator=R18|UniqueId=\HXRMCCAM|Kind=1|AlternatePart= 
+Variation42=Designator=R19|UniqueId=\CUFENBFV|Kind=1|AlternatePart= 
+Variation43=Designator=TB1|UniqueId=\ITLYDVOK|Kind=1|AlternatePart= 
+Variation44=Designator=TB2|UniqueId=\AIHSPHIH|Kind=1|AlternatePart= 
+Variation45=Designator=U1|UniqueId=\IKWKJJLI|Kind=1|AlternatePart= 
+Variation46=Designator=U2|UniqueId=\MBAOUHEB|Kind=1|AlternatePart= 
+Variation47=Designator=U3|UniqueId=\NHSAQJRA|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for SparkIO Thermal Shield\Design Rule Check - SparkIO Thermal Shield.html
+DocumentPath=Release\BOM\Bill of Materials-SparkIO Thermal Shield - No Aux ADC(Prototype).xls
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\comp_+_bot\components
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Release\ODB\odb\steps\pcb1\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Release\ODB\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for SparkIO Thermal Shield\Design Rule Check - SparkIO Thermal Shield.html
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Release\ODB\odb\steps\panel\layers\bottom\features
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Release\ODB\odb\steps\panel\layers\bottomsolder\features
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Release\ODB\odb\steps\panel\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Release\ODB\odb\steps\panel\layers\keepout\features
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Release\ODB\odb\steps\panel\layers\mechanical1\features
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Release\ODB\odb\steps\panel\layers\mechanical15\features
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Release\ODB\odb\steps\panel\layers\top\features
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Release\ODB\odb\steps\panel\layers\topoverlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Release\ODB\odb\steps\panel\layers\toppaste\features
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Release\ODB\odb\steps\panel\layers\topsolder\features
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\bottom\features
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\bottomsolder\features
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\keepout\features
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\mechanical1\features
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\mechanical15\features
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\top\features
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\topoverlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\toppaste\features
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\topsolder\features
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\bottom\features
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\bottomsolder\features
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\keepout\features
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\mechanical1\features
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\mechanical15\features
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\top\features
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\topoverlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\toppaste\features
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\topsolder\features
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Release\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Release\ODB\odb\steps\panel\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Release\ODB\odb\steps\pcb1\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Release\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Release\Pick Place\Pick Place for SparkIO Thermal Shield(Prototype).csv
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Release\Pick Place\Pick Place for SparkIO Thermal Shield(Prototype).txt
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Release\Pick Place\Pick Place for SparkIO Thermal Shield - Panelized(Prototype).csv
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Release\Pick Place\Pick Place for SparkIO Thermal Shield - Panelized(Prototype).txt
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Release\ODB\odb\steps\panel\profile
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Release\ODB\odb\steps\pcb1\profile
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Release\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Release\NC Drill\SparkIO Thermal Shield - Panelized.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Release\NC Drill\SparkIO Thermal Shield - Panelized.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Release\ODB\SparkIO Thermal Shield - Panelized.REP
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Release\NC Drill\SparkIO Thermal Shield - Panelized.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Release\NC Drill\SparkIO Thermal Shield.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Release\NC Drill\SparkIO Thermal Shield.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument68]
 DocumentPath=SparkIO Thermal Shield.PcbDoc.htm
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.REP
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Release\ODB\SparkIO Thermal Shield.REP
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Release\Gerber\SparkIO Thermal Shield.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=Release\NC Drill\SparkIO Thermal Shield.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Release\ODB\odb\steps\panel\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument74]
+DocumentPath=Release\ODB\odb\steps\pcb1\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument75]
+DocumentPath=Release\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument76]
+DocumentPath=Release\ODB\odb\steps\panel\layers\drill\tools
+DItemRevisionGUID=
+
+[GeneratedDocument77]
+DocumentPath=Release\ODB\odb\steps\pcb1\layers\drill\tools
+DItemRevisionGUID=
+
+[GeneratedDocument78]
+DocumentPath=Release\ODB\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -185,7 +543,7 @@ GenerateBOM=1
 OutputJobsCount=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for SparkIO Thermal Shield
 
 [OutputGroup1]
 Name=Netlist Outputs
