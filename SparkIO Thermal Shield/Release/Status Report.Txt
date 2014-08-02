@@ -1,6 +1,6 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 11:07:21 PM On 7/31/2014
+Start Output Generation At 2:16:03 PM On 8/2/2014
 
 Output: Export STEP
 Type  : ExportSTEP
@@ -11,4 +11,4 @@ From  : Variant [Prototype] of PCB Document [SparkIO Thermal Shield.PcbDoc]
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 11:07:33 PM On 7/31/2014
+Finished Output Generation At 2:16:19 PM On 8/2/2014
