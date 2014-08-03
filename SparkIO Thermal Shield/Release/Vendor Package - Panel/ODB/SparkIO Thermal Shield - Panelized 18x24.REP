@@ -1,0 +1,120 @@
+*************************************************************
+FileName = SparkIO Thermal Shield - Panelized 18x24.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\matrix\matrix
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\profile
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\stephdr
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\topoverlay\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\topoverlay\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\toppaste\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\toppaste\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\topsolder\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\topsolder\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\top\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\top\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\bottom\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\bottom\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\bottomsolder\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\bottomsolder\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\drill\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\drill\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\drill\tools
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\keepout\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\keepout\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\mechanical1\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\mechanical1\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\mechanical15\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\mechanical15\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\rout\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\panel\layers\rout\tools
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\profile
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\stephdr
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\topoverlay\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\topoverlay\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\toppaste\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\toppaste\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\topsolder\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\topsolder\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\top\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\top\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\bottom\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\bottom\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\bottomsolder\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\bottomsolder\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\drill\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\drill\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\drill\tools
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\keepout\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\keepout\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\mechanical1\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\mechanical1\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\mechanical15\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\mechanical15\attrlist
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\comp_+_top\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\comp_+_top\components
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\comp_+_bot\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\comp_+_bot\components
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\rout\features
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\layers\rout\tools
+
+Generated File : C:\Users\Jim Griazbacher\Documents\GitHub\probe\SparkIO Thermal Shield\Release\Vendor Package - Panel\ODB\odb\steps\pcb1\eda\data
+

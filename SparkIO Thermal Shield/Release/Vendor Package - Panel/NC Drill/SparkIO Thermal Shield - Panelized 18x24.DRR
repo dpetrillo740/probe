@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: SparkIO Thermal Shield - Panelized 18x24.PcbDoc   8/3/2014  6:25:46 PM
+---------------------------------------------------------------------------
+
+Layer Pair : [1] Top Layer to [2] Bottom Layer
+ASCII RoundHoles File : SparkIO Thermal Shield - Panelized 18x24.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        15mil (0.381mm)          Round          750              397.87 Inch (10106.02 mm)
+T2        47.24mil (1.1999mm)      Round          1500             498.11 Inch (12651.88 mm)
+T3        50mil (1.27mm)           Round          1200             334.81 Inch (8504.21 mm)
+T4        69.68mil (1.76987mm)     Round          600              395.00 Inch (10033.01 mm)
+T5        196.85mil (4.99999mm)    Round          150              279.81 Inch (7107.18 mm)
+---------------------------------------------------------------------------
+Totals                                            4200             1905.60 Inch (48402.30 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:04
