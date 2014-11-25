@@ -1,0 +1,48 @@
+function onSubmit(e) {
+  var itemResponses = e.response.getItemResponses();  
+  
+    //convert form items to a big String:
+  var currentItemResponse = null;
+  var currentKey = '';
+  var currentValue = '';
+  var itemsString = '';
+  for (var i = 0; i < itemResponses.length; i++) {
+    currentItemResponse = itemResponses[i];
+    currentKey = currentItemResponse.getItem().getId();
+    currentValue = currentItemResponse.getResponse();
+    itemsString += currentValue + ',';
+  }
+  
+  //remove trailing comma 
+  itemsString = itemsString.slice(0, -1);
+ // itemsString += ' }';
+  
+  Logger.log(itemsString);
+  postToSpark(itemsString); 
+  
+}
+
+function postToSpark(data) {
+  var url = 'https://api.spark.io/v1/devices/53ff6a066667574828581667/cook?access_token=4b2c05bc8e577c3d6484c64364f0f78900fbbca4';
+  
+  Logger.log('data: :' + data);
+  var headers = {
+    'Cache-Control': 'no-cache',
+    'Content-Type': 'application/json'
+  };
+  
+  var payload =
+   {
+     "args": data
+   };
+  
+   var options =
+   {
+     "method" : "post",
+     "payload" : payload
+   };
+  
+  Logger.log('Data sent to Spark: ' + data);
+  var response = UrlFetchApp.fetch(url, options);
+  Logger.log('Response from Spark: ' + response);
+}
